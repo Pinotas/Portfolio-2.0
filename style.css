@@ -6,4 +6,6 @@ header {
   margin: 0 auto;
   float: left;
   border-radius: 50%;
+  width: 290px;
+  height: 250px;
 }
