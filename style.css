@@ -1,10 +1,19 @@
 header {
   text-align: center;
 }
+.introduction a {
+  display: inline-block;
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  border-color: #3f0996;
+  text-decoration: none;
+  color: #3f0996;
+}
 .Pinotas {
   display: block;
   margin: 0 auto;
-  float: left;
   border-radius: 50%;
   width: 290px;
   height: 250px;
