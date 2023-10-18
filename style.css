@@ -1,0 +1,9 @@
+header {
+  text-align: center;
+}
+.Pinotas {
+  display: block;
+  margin: 0 auto;
+  float: left;
+  border-radius: 50%;
+}
