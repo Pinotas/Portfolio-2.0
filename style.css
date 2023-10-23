@@ -1,15 +1,15 @@
+:root {
+  --first-background: #232946;
+}
 * {
   box-sizing: border-box;
-}
-:root {
-  --nutural: #232946;
 }
 .nav-links {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--nutural);
+  background-color: var(--first-background);
   display: block;
 }
 li {
@@ -27,7 +27,7 @@ li {
 }
 
 li a:hover {
-  background-color: var(--nutural);
+  background-color: var(--first-background);
 }
 header {
   text-align: center;
@@ -59,13 +59,13 @@ header {
   margin-bottom: -5px;
 }
 .about {
-  background-color: var(--nutural);
+  background-color: var(--first-background);
 }
 
 .Projects {
-  background-color: var(--nutural);
+  background-color: var(--first-background);
 }
 
 .Contactos {
-  background-color: var(--nutural);
+  background-color: var(--first-background);
 }
