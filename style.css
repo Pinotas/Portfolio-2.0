@@ -69,3 +69,16 @@ header {
 .Contactos {
   background-color: var(--first-background);
 }
+
+.heading {
+  position: relative;
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  border: 2px solid rgb(180, 65, 15);
+  width: 100px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
